@@ -32,7 +32,7 @@ const Header = () => {
 <ul className='md:flex gap-8 hidden  ' >
   {
     menu.map((item,index)=>(
-      <Link href="/" key={index} className='hover:text-blue-950 font-medium ' >{item.name}</Link>
+      <Link href="/" key={index} className='hover:text-blue-950 font-medium text-[#14424C] ' >{item.name}</Link>
     ))
   }
 </ul>
