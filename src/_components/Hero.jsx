@@ -20,11 +20,12 @@ const Hero = () => {
         <h2 className="text-3xl font-bold sm:text-4xl">Book Your Appointment</h2>
 
         <p className="mt-4 text-gray-600">
-        Are you in need of medical attention? Our expert doctors are here to help. Schedule your appointment today for a comprehensive consultation. 
-         
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
+          eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
+          quidem quam repellat.
         </p>
 
-       <Button className="mt-6" >Explore more</Button>
+        <Button className="mt-6" >Explore more</Button>
       </div>
     </div>
   </div>
