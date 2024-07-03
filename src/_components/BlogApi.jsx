@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Api = () => {
+const BlogApi = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Api = () => {
   )
 }
 
-export default Api
+export default BlogApi
