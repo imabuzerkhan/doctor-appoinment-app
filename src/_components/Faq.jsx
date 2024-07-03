@@ -3,6 +3,7 @@
 const Faq = () => {
   return (
     <div>
+      <h1 className='text-4xl my-4 font-bold ' >Faq</h1>
       <div className="space-y-4  ">
         <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" open>
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
