@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const PopularDoctor = () => {
   return (
@@ -22,7 +23,7 @@ const PopularDoctor = () => {
         <span className='text-[#0c1019]' >25 years</span>
         <p className='text-gray-600' >Biratnagr 06, Buddha chowk</p>
         </div>
-        <button className='w-full border-2 border-[#272E3F] mt-3 rounded-lg text-md ' >Book Now</button>
+       <Link href='/Booking' > <button  className='w-full border-2 border-[#272E3F] mt-3 rounded-lg text-md ' >Book Now</button></Link>
       </div>
       {/* second card */}
       <div className="card bg-slate-50 border-2 border-gray-100 px-3 py-3 w-80   md:w-64 ">
