@@ -16,7 +16,7 @@ const Header = () => {
 {
   id:3,
   name:'Contact Us',
-  path:'/'
+  path:'/Contact'
 }]
   return (
    <>

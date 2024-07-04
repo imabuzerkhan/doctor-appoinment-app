@@ -4,6 +4,7 @@ import CategorySearch from "@/_components/CategorySearch";
 import Faq from "@/_components/Faq";
 
 import PopularDoctor from "@/_components/PopularDoctor";
+import Testimonial from "@/_components/Testimonial";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
    <Hero></Hero>
    <CategorySearch/>
   <PopularDoctor/>
+  
    <Faq></Faq>
-   
+   <Testimonial/>
    </>
   );
 }
