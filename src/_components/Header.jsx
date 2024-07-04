@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import DarkMode from './Darkmode/Darkmode'
 import { Button } from '@/components/ui/button'
 const Header = () => {
   const menu=[{
@@ -39,6 +40,7 @@ const Header = () => {
 
 
    </div>
+   <DarkMode></DarkMode>
    <Button>Get Started </Button>
    </div>
    </>
