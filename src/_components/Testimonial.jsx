@@ -2,15 +2,15 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white dark:bg-gray-800 my-10 ">
     <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-      <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+      <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl dark:text-white ">
         Read trusted reviews from our patients
       </h2>
   
       <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
         <div className="mb-8 sm:break-inside-avoid">
-          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+          <blockquote className="rounded-lg  bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <img
                 alt=""
