@@ -18,7 +18,7 @@ const PopularDoctor = () => {
         height={300}
         />
         <div className="text my-2 ">
-        <span className='text-xs dark:text-red-900 dark:bg-gray-700 bg-blue-100 px-2 py-1 rounded-full font-medium' >Neurologist</span>
+        <span className='text-xs dark:text-white dark:bg-gray-700 bg-blue-100 px-2 py-1 rounded-full font-medium' >Neurologist</span>
         <h4 className='font-bold text-xl mt-2 dark:text-white' >Dr Priyanka</h4>
         <span className='text-[#0c1019] dark:text-gray-300' >25 years</span>
         <p className='text-gray-600 dark:text-gray-400' >Biratnagr 06, Buddha chowk</p>

@@ -28,6 +28,7 @@ const Header = () => {
   alt='logo'
   width={180}
   height={80}
+  className='dark:text-white text-gray-800 '
   />
 
 <ul className='md:flex gap-8 hidden  ' >
