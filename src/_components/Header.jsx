@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Menutoggle from './Menutoggle';  // Make sure the path is correct
+import Menutoggle from './MenuToggle';
 import Link from 'next/link';
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 import DarkMode from './Darkmode/Darkmode';
