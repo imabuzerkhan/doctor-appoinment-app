@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={outfit.className}>
-        <Provider defaultTheme="system" attribute="class" >
+        <Provider defaultTheme="light" attribute="class" >
         <div className="md:px-20  ">
           <Header></Header>
           {children}
