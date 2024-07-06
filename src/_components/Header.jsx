@@ -18,6 +18,10 @@ const Header = () => {
   id:3,
   name:'Contact Us',
   path:'/Contact'
+},{
+  id:4,
+  name: "Blog" ,
+  path:'/Blogpages'
 }]
   return (
    <>
