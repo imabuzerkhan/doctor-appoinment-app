@@ -2,6 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import blogDetails from '@/Data/data';
+import Image from 'next/image';
 
 export default function BlogDetails() {
   const params = useParams();
@@ -17,7 +18,10 @@ export default function BlogDetails() {
     <div className='my-10 ' >
       <h1 className='font-bold text-3xl ' >{blog.title}</h1>
       <p className='font-medium text-xl '>{blog.description}</p>
-      <img src={blog.image} alt={blog.title} className=' w-full object-cover rounded-2xl my-4 h-64 ' />
+      <Image src={blog.image} alt={blog.title} 
+      width={700}
+      height={256}
+      className=' w-full object-cover rounded-2xl my-4 h-64 ' />
 
       <p className='font-sans font-[600] text-lg ' >{blog.details}</p>
     </div>

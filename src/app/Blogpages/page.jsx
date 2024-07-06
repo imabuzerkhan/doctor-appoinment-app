@@ -1,6 +1,7 @@
 // pages/index.js
 import Link from 'next/link';
 import blogDetails from '@/Data/data';
+import Image from 'next/image';
 export default function Home() {
   return (
     <div>
@@ -9,7 +10,10 @@ export default function Home() {
           <li key={blog.id}>
             <Link  href={`/blog/${blog.id}`}>
 <article className="overflow-hidden rounded-lg border border-gray-100 bg-slate-50 dark:bg-gray-800 dark:border-none shadow-sm">
-  <img src={blog.image}
+  <Image src={blog.image}
+  width={358}
+  height={229}
+  
   className='w-[385px] h-[229px] '
   />
 
