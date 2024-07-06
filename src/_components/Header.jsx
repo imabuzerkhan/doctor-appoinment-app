@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='flex items-center justify-between p-4 shadow-md'>
+      <div className='flex items-center justify-between p-4 shadow-md px-0 md:px-20 '>
         <div className='flex items-center gap-10'>
           <Link href={'/'} >
           <Image

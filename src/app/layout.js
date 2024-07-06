@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={outfit.className}>
         <Provider defaultTheme="light" attribute="class" >
       
-          <Header className="px-0 md:px-20 " ></Header>
+          <Header  ></Header>
           <div className=" px-5 md:px-20  ">
           {children}
           <Footer/>
