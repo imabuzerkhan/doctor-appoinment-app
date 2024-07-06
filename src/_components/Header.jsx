@@ -1,4 +1,3 @@
-// Header.js
 "use client";
 
 import React, { useState } from 'react';
@@ -16,6 +15,10 @@ const Header = () => {
     setToggle(!toggle);
   };
 
+  const closeMenu = () => {
+    setToggle(false);
+  };
+
   const menu = [
     { id: 1, name: 'Home', path: '/' },
     { id: 2, name: 'About', path: '/about' },
@@ -27,6 +30,7 @@ const Header = () => {
     <>
       <div className='flex items-center justify-between p-4 shadow-md'>
         <div className='flex items-center gap-10'>
+          <Link href={'/'} >
           <Image
             src='/logo.svg'
             alt='logo'
@@ -34,6 +38,7 @@ const Header = () => {
             height={80}
             className='dark:text-white text-gray-800'
           />
+          </Link>
 
           <ul className='md:flex gap-8 hidden'>
             {menu.map((item, index) => (
@@ -48,9 +53,9 @@ const Header = () => {
           <Button>Get Started</Button>
         </div>
         <div className="md:hidden">
-          {!toggle ? <HiMenuAlt3 onClick={Toggle} className="text-black text-[22px]" />
-            : <HiOutlineX onClick={Toggle} className="text-black text-[22px]" />}
-          {toggle ? <Menutoggle Link={Link} /> : null}
+          {!toggle ? <HiMenuAlt3 onClick={Toggle} className="text-black dark:text-white text-[22px]" />
+            : <HiOutlineX onClick={Toggle} className="text-black dark:text-white text-[22px]" />}
+          {toggle && <Menutoggle Link={Link} closeMenu={closeMenu} />}
         </div>
       </div>
     </>
