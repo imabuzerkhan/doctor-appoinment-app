@@ -52,7 +52,7 @@ const Header = () => {
           <DarkMode />
           <Button>Get Started</Button>
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden ml-2 ">
           {!toggle ? <HiMenuAlt3 onClick={Toggle} className="text-black dark:text-white text-[22px]" />
             : <HiOutlineX onClick={Toggle} className="text-black dark:text-white text-[22px]" />}
           {toggle && <Menutoggle Link={Link} closeMenu={closeMenu} />}
