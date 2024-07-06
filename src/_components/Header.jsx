@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <>
       <div className='flex items-center justify-between p-4 shadow-md px-0 md:px-20 '>
-        <div className='flex items-center gap-10'>
+        <div className='flex items-center gap-10 px-2 md:px-0 '>
           <Link href={'/'} >
           <Image
             src='/logo.svg'
