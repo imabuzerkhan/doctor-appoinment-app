@@ -14,11 +14,12 @@ export default function BlogDetails() {
   // if (!blog) return <div>Blog not found</div>;
 
   return (
-    <div>
-      <h1>{blog.title}</h1>
-      <p>{blog.description}</p>
-      <p>{blog.details}</p>
-      <img src={blog.image} alt={blog.title} />
+    <div className='my-10 ' >
+      <h1 className='font-bold text-3xl ' >{blog.title}</h1>
+      <p className='font-medium text-xl '>{blog.description}</p>
+      <img src={blog.image} alt={blog.title} className=' w-full object-cover rounded-2xl my-4 h-64 ' />
+
+      <p className='font-sans font-[600] text-lg ' >{blog.details}</p>
     </div>
   );
 }

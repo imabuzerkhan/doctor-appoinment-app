@@ -4,8 +4,7 @@ import blogDetails from '@/Data/data';
 export default function Home() {
   return (
     <div>
-      <h1>Blog List</h1>
-      <ul className='grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-10 gap-4 ' >
+      <ul className='grid px-10 sm:px-0 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-10 gap-4 ' >
         {blogDetails.map(blog => (
           <li key={blog.id}>
             <Link  href={`/blog/${blog.id}`}>

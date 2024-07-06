@@ -1,7 +1,7 @@
 const blogDetails = [
   {
     id: 1,
-    title: "Exploring the Wonders of Nature",
+    title: "Exploring the  Nature",
     description: "Join us as we delve into the beauty and mystery of the natural world. From breathtaking landscapes to fascinating wildlife, discover the wonders that nature has to offer.",
     details: "Nature is full of incredible sights and sounds that captivate the senses. In this blog, we'll explore some of the most stunning natural wonders, from majestic mountains to serene forests. We'll also take a closer look at the diverse wildlife that inhabits these environments, and learn about the delicate balance that sustains life on our planet. Whether you're a seasoned nature enthusiast or just starting to explore the great outdoors, this blog has something for everyone.",
     image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -29,7 +29,7 @@ const blogDetails = [
   },
   {
     id: 5,
-    title: "Mastering the Art of Photography",
+    title: "Mastering the  Photography",
     description: "Unlock your creative potential with photography tips and techniques. Learn how to take stunning photos, no matter your skill level.",
     details: "Photography is a powerful way to capture and share the beauty of the world around us. Whether you're a beginner or an experienced photographer, there's always something new to learn. In this blog, we'll cover everything from basic camera settings to advanced techniques for capturing stunning images. You'll also find tips for editing and sharing your photos, as well as inspiration for your next photography project.",
     image: "https://images.unsplash.com/photo-1509518408633-d42f618a2bdc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -64,3 +64,10 @@ const blogDetails = [
   }]
 
   export default blogDetails;
+
+  export const menu = [
+    { id: 1, name: 'Home', path: '/' },
+    { id: 2, name: 'About', path: '/about' },
+    { id: 3, name: 'Contact Us', path: '/Contact' },
+    { id: 4, name: 'Blog', path: '/Blogpages' }
+  ];
