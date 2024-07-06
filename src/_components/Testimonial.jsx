@@ -13,7 +13,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg  bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="first-image"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -91,7 +91,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="second iamge"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -167,7 +167,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="thirdimage"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -244,7 +244,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="four-image"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -319,7 +319,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="fifth-image"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -398,7 +398,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="sixth-img"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -474,7 +474,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="seven-img"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -551,7 +551,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="eight-img"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}
@@ -626,7 +626,7 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="nine-img"
                 src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
                 width={56}
                 height={56}

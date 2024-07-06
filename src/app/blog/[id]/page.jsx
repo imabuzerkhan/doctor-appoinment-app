@@ -19,6 +19,7 @@ export default function BlogDetails() {
       <h1 className='font-bold text-3xl ' >{blog.title}</h1>
       <p className='font-medium text-xl '>{blog.description}</p>
       <Image src={blog.image} alt={blog.title} 
+    
       width={700}
       height={256}
       className=' w-full object-cover rounded-2xl my-4 h-64 ' />

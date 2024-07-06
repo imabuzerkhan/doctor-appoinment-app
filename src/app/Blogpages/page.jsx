@@ -11,6 +11,7 @@ export default function Home() {
             <Link  href={`/blog/${blog.id}`}>
 <article className="overflow-hidden rounded-lg border border-gray-100 bg-slate-50 dark:bg-gray-800 dark:border-none shadow-sm">
   <Image src={blog.image}
+  alt='blog-image'
   width={358}
   height={229}
   
