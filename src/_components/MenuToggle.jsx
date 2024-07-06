@@ -20,7 +20,7 @@ const Menutoggle = ({ Link, closeMenu }) => {
   }, [closeMenu]);
 
   return (
-    <div className="fixed top-[75px] left-0 w-full h-80 bg-slate-100 dark:bg-gray-800 z-50">
+    <div className="fixed top-[75px] left-0 w-full h-80 bg-white dark:bg-gray-800 z-50">
       <ul className='flex flex-col items-center justify-center h-full gap-8'>
         {menu.map((item, index) => (
           <Link href={item.path} key={index} className='dark:text-white hover:text-blue-950 font-medium text-[#14424C]' onClick={closeMenu}>

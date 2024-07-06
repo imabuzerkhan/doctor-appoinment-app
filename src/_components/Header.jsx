@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <>
       <div className='flex items-center justify-between p-4 shadow-md px-0 md:px-20 '>
-        <div className='flex items-center gap-10 px-2 md:px-0 '>
+        <div className='flex items-center gap-10 pl-4 pr-4 md:px-0 '>
           <Link href={'/'} >
           <Image
             src='/logo.svg'
@@ -48,15 +48,16 @@ const Header = () => {
             ))}
           </ul>
         </div>
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center justify-center gap-2 px-4 ">
           <DarkMode />
           <Button>Get Started</Button>
-        </div>
-        <div className="md:hidden ml-2 ">
+          <div className="md:hidden ml-2 ">
           {!toggle ? <HiMenuAlt3 onClick={Toggle} className="text-black dark:text-white text-[22px]" />
             : <HiOutlineX onClick={Toggle} className="text-black dark:text-white text-[22px]" />}
           {toggle && <Menutoggle Link={Link} closeMenu={closeMenu} />}
         </div>
+        </div>
+       
       </div>
     </>
   );

@@ -17,14 +17,14 @@ export default function BlogDetails() {
   return (
     <div className='my-10  ' >
       <h1 className='font-bold text-3xl ' >{blog.title}</h1>
-      <p className='font-medium text-xl '>{blog.description}</p>
+      <p className='font-medium text-md mt-4 '>{blog.description}</p>
       <Image src={blog.image} alt={blog.title} 
     
       width={700}
       height={256}
       className=' w-full object-cover rounded-2xl my-4 h-64 ' />
 
-      <p className='font-sans font-[600] text-lg ' >{blog.details}</p>
+      <p className=' font-[300] text-xl ' >{blog.details}</p>
     </div>
   );
 }
