@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Menutoggle = ({ Link, closeMenu }) => {
   const menu = [
@@ -7,6 +7,17 @@ const Menutoggle = ({ Link, closeMenu }) => {
     { id: 3, name: 'Contact Us', path: '/Contact' },
     { id: 4, name: 'Blog', path: '/Blogpages' }
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      closeMenu();
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [closeMenu]);
 
   return (
     <div className="fixed top-[75px] left-0 w-full h-80 bg-slate-100 dark:bg-gray-800 z-50">
