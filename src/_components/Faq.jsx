@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {
   Accordion,
   AccordionContent,
@@ -34,7 +34,7 @@ const Faq = () => {
           <AccordionItem value="item-3">
             <AccordionTrigger>What do I do if I need to cancel my appointment?</AccordionTrigger>
             <AccordionContent>
-              You can cancel appointments through the app's appointment management section. Please ensure to cancel at least 24 hours in advance to avoid charges.
+              You can cancel appointments through the app;s appointment management section. Please ensure to cancel at least 24 hours in advance to avoid charges.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
