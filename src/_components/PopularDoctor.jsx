@@ -5,7 +5,7 @@ import Link from 'next/link'
 const PopularDoctor = () => {
   return (
    <>
-   <div className='mb-8 px-[3.5rem] md:px-0 ' >
+   <div className='mb-8  ' >
     <h1 className='text-4xl my-4 font-bold dark:text-white' >Popular Doctor</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 items-center justify-center' >
       {/* first card */}
