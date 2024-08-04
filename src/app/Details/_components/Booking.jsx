@@ -1,7 +1,10 @@
+"use client"
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -9,29 +12,111 @@ import {
 import { Calendar } from "@/components/ui/calendar"
 
 import { NotebookPen } from "lucide-react"
+import { useEffect, useState } from "react"
+import { Button } from "@/components/ui/button"
+
+
+
 
 
 
 const Booking = () => {
+  useEffect(()=>{
+    getTime();
+  },[])
+
+
+  const getTime = () => {
+    const timeList = [];
+    for (let i = 10; i <= 12; i++) {
+        timeList.push({
+            time: i + ':00 AM'
+        })
+        timeList.push({
+            time: i + ':30 AM'
+        })
+    }
+    for (let i = 1; i <= 6; i++) {
+        timeList.push({
+            time: i + ':00 PM'
+        })
+        timeList.push({
+            time: i + ':30 PM'
+        })
+    }
+  
+    setTimeSlot(timeList)
+  }
+
+
+  const [date, setDate] = useState(new Date())
+  const [timeSlot,setTimeSlot]=useState([]);
+  const [selectedTime,setSelectedTime]=useState();
+
+
+
   return (
-    <div>
-      <Sheet>
-  <SheetTrigger className="flex item-center gap-1 font-bold px-2 py-2 text-white bg-[#272E3F] dark:text-black dark:bg-white rounded-lg  " ><NotebookPen/> Booking Appoinment </SheetTrigger>
-  <SheetContent className="overflow-auto" >
+   
+   <div>
+        
+        <Sheet>
+  <SheetTrigger className=" flex items-center gap-1 dark:bg-white dark:text-black bg-[#0f172a] px-2 py-2 rounded-lg text-white  " ><NotebookPen/>
+Booking Appoinment
+  </SheetTrigger>
+  <SheetContent className="overflow-auto">
     <SheetHeader>
-      <SheetTitle>Booking Appoinment </SheetTitle>
+      <SheetTitle>Book an Service</SheetTitle>
       <SheetDescription>
-      Get your time and appoinment date from here
+        Select Date and Time slot to book an service
+        {/* Date Picker  */}
+
+        <div className='flex flex-col gap-5 items-baseline'>
+        <h2 className='mt-5 font-bold'>Select Date</h2>
+
+            <Calendar
+                mode="single"
+                selected={date} 
+                onSelect={setDate}
+                className="rounded-md border w-full md:w-72 overflow-scroll sm:overflow-hidden  "
+            />
+
+        </div>
+        {/* Time Slot Picker  */}
+        <h2 className='my-5 font-bold'>Select Time Slot</h2>
+        <div className='grid grid-cols-3 gap-3'>
+            {timeSlot.map((item,index)=>(
+                <Button key={index}
+               
+                variant='outiline'
+                className={`border rounded-full 
+                p-2 px-3 
+                
+                 ${selectedTime==item.time&&'bg-[#0f172a] text-white'}`}
+                onClick={()=>setSelectedTime(item.time)}
+                >{item.time}</Button>
+            ))}
+        </div>
+        
       </SheetDescription>
-      <Calendar
-    mode="single"
-    selected={date}
-    onSelect={setDate}
-    className="rounded-md border"
-  />
     </SheetHeader>
+    <SheetFooter className="mt-5">
+              <SheetClose asChild>
+                <div className='flex gap-5'>
+                <Button variant="destructive" 
+                className="">Cancel</Button>
+
+                <Button 
+                disabled={!(selectedTime&&date)}
+               
+                >
+                    Book</Button>
+                </div>
+             
+              </SheetClose>
+            </SheetFooter>
   </SheetContent>
 </Sheet>
+
 
     </div>
   )

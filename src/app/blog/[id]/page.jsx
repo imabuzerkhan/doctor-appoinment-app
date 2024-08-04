@@ -1,13 +1,15 @@
 "use client"
 
 import { useParams } from 'next/navigation';
-import blogDetails from '@/Data/data';
+import {blogDetails} from '@/Data/data';
 import Image from 'next/image';
 
 export default function BlogDetails() {
   const params = useParams();
   const { id } = params;
-
+  console.log('Params:', params);
+  console.log('ID:', id);
+  console.log('Parsed ID:', parseInt(id));
 
   const blog = blogDetails.find(blog => blog.id === parseInt(id));
 

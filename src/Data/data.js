@@ -1,4 +1,4 @@
-const blogDetails = [
+ export const blogDetails = [
   {
     id: 1,
     title: "Exploring the  Nature",
@@ -63,7 +63,7 @@ const blogDetails = [
     image: "https://images.unsplash.com/photo-1528319725582-ddc096101511?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }]
 
-  export default blogDetails;
+
 
   export const menu = [
     { id: 1, name: 'Home', path: '/' },
@@ -74,10 +74,10 @@ const blogDetails = [
 
 
 
-  export const doctors = [
+  const doctors = [
     { 
-      id: '1', 
-      name: 'Dr Priyanka', 
+      id: 1, 
+      title: 'Dr Priyanka', 
       specialty: 'Neurologist', 
       experience: '25 years', 
       address: 'Biratnagar 06, Buddha chowk', 
@@ -85,8 +85,8 @@ const blogDetails = [
       image: '/doctor-one.jpg' 
     },
     { 
-      id: '2', 
-      name: 'Dr Amit', 
+      id: 2, 
+      title: 'Dr Amit', 
       specialty: 'Cardiologist', 
       experience: '20 years', 
       address: 'Kathmandu, Thamel', 
@@ -94,8 +94,8 @@ const blogDetails = [
       image: '/doctor-two.jpg' 
     },
     { 
-      id: '3', 
-      name: 'Dr Sunita', 
+      id: 3, 
+      title: 'Dr Sunita', 
       specialty: 'Dermatologist', 
       experience: '18 years', 
       address: 'Lalitpur, Pulchowk', 
@@ -103,8 +103,8 @@ const blogDetails = [
       image: '/doctor-three.jpg' 
     },
     { 
-      id: '4', 
-      name: 'Dr Sanjay', 
+      id: 4, 
+      title: 'Dr Sanjay', 
       specialty: 'Pediatrician', 
       experience: '15 years', 
       address: 'Bhaktapur, Durbar Square', 
@@ -112,8 +112,8 @@ const blogDetails = [
       image: '/doctor-four.jpg' 
     },
     { 
-      id: '5', 
-      name: 'Dr Ravi', 
+      id: 5, 
+      title: 'Dr Ravi', 
       specialty: 'Orthopedic', 
       experience: '22 years', 
       address: 'Pokhara, Lakeside', 
@@ -121,8 +121,8 @@ const blogDetails = [
       image: '/doctor-five.jpg' 
     },
     { 
-      id: '6', 
-      name: 'Dr Sushma', 
+      id: 6, 
+      title: 'Dr Sushma', 
       specialty: 'Ophthalmologist', 
       experience: '12 years', 
       address: 'Dharan, B.P. Koirala Institute', 
@@ -130,8 +130,8 @@ const blogDetails = [
       image: '/doctor-six.jpg' 
     },
     { 
-      id: '7', 
-      name: 'Dr Pritam', 
+      id: 7, 
+      title: 'Dr Pritam', 
       specialty: 'Psychiatrist', 
       experience: '30 years', 
       address: 'Birgunj, Adarsh Nagar', 
@@ -139,8 +139,8 @@ const blogDetails = [
       image: '/doctor-seven.jpg' 
     },
     { 
-      id: '8', 
-      name: 'Dr Rina', 
+      id: 8, 
+      title: 'Dr Rina', 
       specialty: 'Gastroenterologist', 
       experience: '28 years', 
       address: 'Hetauda, Bank Road', 
@@ -148,8 +148,8 @@ const blogDetails = [
       image: '/doctor-eight.jpg' 
     },
     { 
-      id: '9', 
-      name: 'Dr Mahesh', 
+      id: 9, 
+      title: 'Dr Mahesh', 
       specialty: 'Oncologist', 
       experience: '35 years', 
       address: 'Janakpur, Ram Mandir', 
@@ -157,8 +157,8 @@ const blogDetails = [
       image: '/doctor-nine.jpg' 
     },
     { 
-      id: '10', 
-      name: 'Dr Rajesh', 
+      id: 10, 
+      title: 'Dr Rajesh', 
       specialty: 'Nephrologist', 
       experience: '27 years', 
       address: 'Damak, Mahendra Highway', 
@@ -166,8 +166,8 @@ const blogDetails = [
       image: '/doctor-ten.jpg' 
     },
     { 
-      id: '11', 
-      name: 'Dr Meera', 
+      id: 11, 
+      title: 'Dr Meera', 
       specialty: 'Urologist', 
       experience: '24 years', 
       address: 'Biratnagar, Road 02', 
@@ -175,8 +175,8 @@ const blogDetails = [
       image: '/doctor-eleven.jpg' 
     },
     { 
-      id: '12', 
-      name: 'Dr Anjali', 
+      id: 12, 
+      title: 'Dr Anjali', 
       specialty: 'Gynecologist', 
       experience: '32 years', 
       address: 'Chitwan, Bharatpur', 
@@ -184,4 +184,5 @@ const blogDetails = [
       image: '/doctor-twelve.jpg' 
     }
   ];
-  
+
+  export default doctors;

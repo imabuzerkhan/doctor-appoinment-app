@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { doctors } from '@/Data/data'; // Import doctors data
+import doctors   from '@/Data/data'; // Import doctors data
 
 const PopularDoctor = () => {
   return (
     <div className='mb-8'>
-      <h1 className='text-4xl my-4 font-bold dark:text-white'>Popular Doctor</h1>
+      <h1 className=' text-2xl text-wrap md:text-4xl my-4 font-bold dark:text-white capitalize '>Chosse and get appoinment </h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 items-center justify-center'>
         {doctors.map((doctor) => (
           <Link key={doctor.id} href={`/Details/${doctor.id}`}>
