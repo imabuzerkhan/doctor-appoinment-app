@@ -76,7 +76,7 @@ const blogDetails = [
 
   export const doctors = [
     { 
-      id: 'dr-priyanka', 
+      id: '1', 
       name: 'Dr Priyanka', 
       specialty: 'Neurologist', 
       experience: '25 years', 
@@ -85,7 +85,7 @@ const blogDetails = [
       image: '/doctor-one.jpg' 
     },
     { 
-      id: 'dr-amit', 
+      id: '2', 
       name: 'Dr Amit', 
       specialty: 'Cardiologist', 
       experience: '20 years', 
@@ -94,7 +94,7 @@ const blogDetails = [
       image: '/doctor-two.jpg' 
     },
     { 
-      id: 'dr-sunita', 
+      id: '3', 
       name: 'Dr Sunita', 
       specialty: 'Dermatologist', 
       experience: '18 years', 
@@ -103,7 +103,7 @@ const blogDetails = [
       image: '/doctor-three.jpg' 
     },
     { 
-      id: 'dr-sanjay', 
+      id: '4', 
       name: 'Dr Sanjay', 
       specialty: 'Pediatrician', 
       experience: '15 years', 
@@ -112,7 +112,7 @@ const blogDetails = [
       image: '/doctor-four.jpg' 
     },
     { 
-      id: 'dr-ravi', 
+      id: '5', 
       name: 'Dr Ravi', 
       specialty: 'Orthopedic', 
       experience: '22 years', 
@@ -121,7 +121,7 @@ const blogDetails = [
       image: '/doctor-five.jpg' 
     },
     { 
-      id: 'dr-sushma', 
+      id: '6', 
       name: 'Dr Sushma', 
       specialty: 'Ophthalmologist', 
       experience: '12 years', 
@@ -130,7 +130,7 @@ const blogDetails = [
       image: '/doctor-six.jpg' 
     },
     { 
-      id: 'dr-pritam', 
+      id: '7', 
       name: 'Dr Pritam', 
       specialty: 'Psychiatrist', 
       experience: '30 years', 
@@ -139,7 +139,7 @@ const blogDetails = [
       image: '/doctor-seven.jpg' 
     },
     { 
-      id: 'dr-rina', 
+      id: '8', 
       name: 'Dr Rina', 
       specialty: 'Gastroenterologist', 
       experience: '28 years', 
@@ -148,7 +148,7 @@ const blogDetails = [
       image: '/doctor-eight.jpg' 
     },
     { 
-      id: 'dr-mahesh', 
+      id: '9', 
       name: 'Dr Mahesh', 
       specialty: 'Oncologist', 
       experience: '35 years', 
@@ -157,7 +157,7 @@ const blogDetails = [
       image: '/doctor-nine.jpg' 
     },
     { 
-      id: 'dr-rajesh', 
+      id: '10', 
       name: 'Dr Rajesh', 
       specialty: 'Nephrologist', 
       experience: '27 years', 
@@ -166,7 +166,7 @@ const blogDetails = [
       image: '/doctor-ten.jpg' 
     },
     { 
-      id: 'dr-meera', 
+      id: '11', 
       name: 'Dr Meera', 
       specialty: 'Urologist', 
       experience: '24 years', 
@@ -175,7 +175,7 @@ const blogDetails = [
       image: '/doctor-eleven.jpg' 
     },
     { 
-      id: 'dr-anjali', 
+      id: '12', 
       name: 'Dr Anjali', 
       specialty: 'Gynecologist', 
       experience: '32 years', 
