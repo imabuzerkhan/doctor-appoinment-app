@@ -71,3 +71,117 @@ const blogDetails = [
     { id: 3, name: 'Contact Us', path: '/Contact' },
     { id: 4, name: 'Blog', path: '/Blogpages' }
   ];
+
+
+
+  export const doctors = [
+    { 
+      id: 'dr-priyanka', 
+      name: 'Dr Priyanka', 
+      specialty: 'Neurologist', 
+      experience: '25 years', 
+      address: 'Biratnagar 06, Buddha chowk', 
+      description: 'Dr. Priyanka is a renowned neurologist with 25 years of experience in diagnosing and treating a wide range of neurological disorders. Her expertise includes managing chronic neurological conditions such as epilepsy, multiple sclerosis, and Parkinson\'s disease. She is dedicated to providing comprehensive care and personalized treatment plans for her patients. Dr. Priyanka is also involved in research to advance the understanding of neurological diseases and improve patient outcomes.', 
+      image: '/doctor-one.jpg' 
+    },
+    { 
+      id: 'dr-amit', 
+      name: 'Dr Amit', 
+      specialty: 'Cardiologist', 
+      experience: '20 years', 
+      address: 'Kathmandu, Thamel', 
+      description: 'Dr. Amit is a leading cardiologist with 20 years of experience in the field of heart health. He specializes in treating cardiovascular diseases including coronary artery disease, heart failure, and arrhythmias. Dr. Amit is known for his patient-centered approach and uses the latest technologies and treatments to manage heart conditions. He is committed to helping patients achieve optimal heart health through both medical and lifestyle interventions.', 
+      image: '/doctor-two.jpg' 
+    },
+    { 
+      id: 'dr-sunita', 
+      name: 'Dr Sunita', 
+      specialty: 'Dermatologist', 
+      experience: '18 years', 
+      address: 'Lalitpur, Pulchowk', 
+      description: 'Dr. Sunita is a highly experienced dermatologist with 18 years of expertise in skin care and treatment. She provides comprehensive services for various skin conditions including acne, eczema, psoriasis, and skin cancer. Dr. Sunita is passionate about cosmetic dermatology and offers advanced treatments for aging skin, pigmentation, and hair loss. Her practice emphasizes both effective treatments and cosmetic improvements to enhance patient confidence and well-being.', 
+      image: '/doctor-three.jpg' 
+    },
+    { 
+      id: 'dr-sanjay', 
+      name: 'Dr Sanjay', 
+      specialty: 'Pediatrician', 
+      experience: '15 years', 
+      address: 'Bhaktapur, Durbar Square', 
+      description: 'Dr. Sanjay is a dedicated pediatrician with 15 years of experience in caring for children from infancy through adolescence. He is skilled in managing a wide range of pediatric conditions, including common childhood illnesses, developmental disorders, and vaccinations. Dr. Sanjay is known for his compassionate approach and works closely with families to ensure the best outcomes for his young patients. He also provides guidance on nutrition, growth, and overall well-being.', 
+      image: '/doctor-four.jpg' 
+    },
+    { 
+      id: 'dr-ravi', 
+      name: 'Dr Ravi', 
+      specialty: 'Orthopedic', 
+      experience: '22 years', 
+      address: 'Pokhara, Lakeside', 
+      description: 'Dr. Ravi is an orthopedic surgeon with 22 years of experience in treating musculoskeletal issues. His specialties include joint replacements, sports injuries, and spinal disorders. Dr. Ravi is dedicated to restoring function and improving quality of life for his patients through both surgical and non-surgical methods. He utilizes the latest advancements in orthopedic care and provides personalized treatment plans tailored to each patient\'s needs.', 
+      image: '/doctor-five.jpg' 
+    },
+    { 
+      id: 'dr-sushma', 
+      name: 'Dr Sushma', 
+      specialty: 'Ophthalmologist', 
+      experience: '12 years', 
+      address: 'Dharan, B.P. Koirala Institute', 
+      description: 'Dr. Sushma is a skilled ophthalmologist with 12 years of experience in eye care. She provides a range of services including cataract surgery, glaucoma management, and treatment for retinal diseases. Dr. Sushma is committed to preserving and enhancing vision through advanced diagnostic and therapeutic techniques. Her practice focuses on both medical and surgical interventions to address various eye conditions and improve patient outcomes.', 
+      image: '/doctor-six.jpg' 
+    },
+    { 
+      id: 'dr-pritam', 
+      name: 'Dr Pritam', 
+      specialty: 'Psychiatrist', 
+      experience: '30 years', 
+      address: 'Birgunj, Adarsh Nagar', 
+      description: 'Dr. Pritam is a seasoned psychiatrist with 30 years of experience in mental health care. He specializes in treating mood disorders, anxiety disorders, and psychotic conditions. Dr. Pritam uses a combination of psychotherapy and pharmacotherapy to address complex mental health issues. He is dedicated to providing holistic care and creating a supportive environment for patients to achieve mental wellness and resilience.', 
+      image: '/doctor-seven.jpg' 
+    },
+    { 
+      id: 'dr-rina', 
+      name: 'Dr Rina', 
+      specialty: 'Gastroenterologist', 
+      experience: '28 years', 
+      address: 'Hetauda, Bank Road', 
+      description: 'Dr. Rina is a prominent gastroenterologist with 28 years of experience in diagnosing and treating digestive system disorders. Her expertise includes managing conditions such as irritable bowel syndrome, liver diseases, and gastrointestinal cancers. Dr. Rina is known for her thorough approach to patient care, utilizing advanced diagnostic tools and treatments to provide comprehensive management of gastrointestinal health.', 
+      image: '/doctor-eight.jpg' 
+    },
+    { 
+      id: 'dr-mahesh', 
+      name: 'Dr Mahesh', 
+      specialty: 'Oncologist', 
+      experience: '35 years', 
+      address: 'Janakpur, Ram Mandir', 
+      description: 'Dr. Mahesh is a highly experienced oncologist with 35 years in the field of cancer care. He specializes in the diagnosis and treatment of various types of cancers, including breast, lung, and colorectal cancers. Dr. Mahesh is committed to providing compassionate care and employing the latest treatment modalities to manage cancer effectively. He also engages in ongoing research to improve cancer treatment outcomes.', 
+      image: '/doctor-nine.jpg' 
+    },
+    { 
+      id: 'dr-rajesh', 
+      name: 'Dr Rajesh', 
+      specialty: 'Nephrologist', 
+      experience: '27 years', 
+      address: 'Damak, Mahendra Highway', 
+      description: 'Dr. Rajesh is a distinguished nephrologist with 27 years of expertise in kidney care. His practice includes managing chronic kidney disease, hypertension, and dialysis. Dr. Rajesh is dedicated to providing personalized treatment plans and working closely with patients to manage their renal health. He is also involved in advancing treatments and improving the quality of life for patients with kidney conditions.', 
+      image: '/doctor-ten.jpg' 
+    },
+    { 
+      id: 'dr-meera', 
+      name: 'Dr Meera', 
+      specialty: 'Urologist', 
+      experience: '24 years', 
+      address: 'Biratnagar, Road 02', 
+      description: 'Dr. Meera is a skilled urologist with 24 years of experience in diagnosing and treating disorders of the urinary tract and male reproductive system. Her expertise includes managing conditions such as kidney stones, urinary infections, and prostate issues. Dr. Meera is known for her comprehensive approach to urological care and her commitment to improving patient outcomes through both medical and surgical interventions.', 
+      image: '/doctor-eleven.jpg' 
+    },
+    { 
+      id: 'dr-anjali', 
+      name: 'Dr Anjali', 
+      specialty: 'Gynecologist', 
+      experience: '32 years', 
+      address: 'Chitwan, Bharatpur', 
+      description: 'Dr. Anjali is an experienced gynecologist with 32 years of practice in womens health. She specializes in managing reproductive health issues, including pregnancy, menopause, and gynecological disorders. Dr. Anjali provides comprehensive care that includes preventive screenings, diagnostic evaluations, and treatment options. Her approach emphasizes patient education and empowering women to take control of their health and well-being.', 
+      image: '/doctor-twelve.jpg' 
+    }
+  ];
+  
