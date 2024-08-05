@@ -12,7 +12,7 @@ const Latestblog = () => {
      <h1 className='text-3xl text-gray-900 dark:text-white font-bold ' > Find our latest Blog</h1>
     
    
-    <div className='flex items-center flex-wrap gap-20 mt-6 mb-10 ' >
+    <div className='flex items-center flex-wrap gap-x-20 gap-y-7  mt-6 mb-10 ' >
      
       {
         allblog.map((blog)=>{
