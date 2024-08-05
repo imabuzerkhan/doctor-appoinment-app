@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Booking from '../_components/Booking';
 import PopularDoctor from '@/_components/PopularDoctor';
 
-const Page = () => { // Renamed from page to Page
+export default function DocotrDetails() { 
   const params = useParams();
   const { id } = params;
 
@@ -52,4 +52,4 @@ const Page = () => { // Renamed from page to Page
   );
 }
 
-export default Page; // Export the renamed component
+
