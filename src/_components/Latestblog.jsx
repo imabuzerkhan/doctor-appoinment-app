@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 const Latestblog = () => {
 
-  const  allblog = blogDetails.slice(0 ,4)
+  const  allblog = blogDetails.slice(0 ,3)
 
 
   return (
