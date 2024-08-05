@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-export function LoginForm() {
+ function LoginForm() {
   return (
-    <Card className="mx-auto max-w-sm">
+    <Card className="mx-auto max-w-sm my-10 dark:bg-[#1F2937] ">
       <CardHeader>
         <CardTitle className="text-xl">Sign Up</CardTitle>
-        <CardDescription>
+        <CardDescription className="dark:text-white" >
           Enter your information to create an account
         </CardDescription>
       </CardHeader>
@@ -46,13 +46,13 @@ export function LoginForm() {
           <Button type="submit" className="w-full">
             Create an account
           </Button>
-          <Button variant="outline" className="w-full">
+          <Button  className="w-full bg-white ">
             Sign up with GitHub
           </Button>
         </div>
         <div className="mt-4 text-center text-sm">
           Already have an account?{" "}
-          <Link href="./Login" className="underline">
+          <Link href="./login" className="underline">
             Sign in
           </Link>
         </div>
@@ -60,3 +60,5 @@ export function LoginForm() {
     </Card>
   )
 }
+
+export default LoginForm

@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-center gap-2 px-4 ">
           <DarkMode />
-        <Link href='Singup' >  <Button>Get Started</Button></Link>
+        <Link href='/singup' >  <Button>Get Started</Button></Link>
           <div className="md:hidden ml-2 ">
           {!toggle ? <HiMenuAlt3 onClick={Toggle} className="text-black dark:text-white text-[22px]" />
             : <HiOutlineX onClick={Toggle} className="text-black dark:text-white text-[22px]" />}
