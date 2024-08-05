@@ -7,7 +7,7 @@ import Booking from '../_components/Booking';
 import PopularDoctor from '@/_components/PopularDoctor';
 
 
-const page = () => {
+const Page = () => {
   const params = useParams();
   const { id } = params;
 
@@ -55,4 +55,4 @@ const page = () => {
   );
 }
 
-export default page;
+export default Page;
