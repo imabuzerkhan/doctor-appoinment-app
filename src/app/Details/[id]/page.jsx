@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useParams } from 'next/navigation';
 import doctors from '@/Data/data';
@@ -6,8 +6,7 @@ import Image from 'next/image';
 import Booking from '../_components/Booking';
 import PopularDoctor from '@/_components/PopularDoctor';
 
-
-const Page = () => {
+const Page = () => { // Renamed from page to Page
   const params = useParams();
   const { id } = params;
 
@@ -16,7 +15,7 @@ const Page = () => {
   console.log('ID:', id);
   console.log('Parsed ID:', parseInt(id));
 
-  const item = doctors.find(item => item.id === parseInt(id) );
+  const item = doctors.find(item => item.id === parseInt(id));
 
   if (!item) {
     return <p>Doctor not found for ID: {id}</p>;
@@ -46,13 +45,11 @@ const Page = () => {
         <h2 className='font-bold md:text-4xl text-2xl'>Description</h2>
         <p className='text-md md:text-xl dark:text-white text-gray-500 leading-8'>{item.description}</p>
       </div>
-      <div className='my-10' >
-        
-        <PopularDoctor  />
+      <div className='my-10'>
+        <PopularDoctor />
       </div>
     </div>
-
   );
 }
 
-export default Page;
+export default Page; // Export the renamed component
