@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const DarkMode = () => {
   const { theme, setTheme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const currentTheme = theme === "system" ? resolvedTheme : theme;
+  const currentTheme = theme === "light" ? resolvedTheme : theme;
 
   useEffect(() => setMounted(true), []);
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const DisBanner = () => {
   return (
     <div className='my-10' >
@@ -23,12 +24,12 @@ height={600}
       <span className="mt-2 block text-sm">On your appoinment charge over $50</span>
     </h2>
 
-    <a
+    <Link
       className="mt-8 inline-block w-full border-2 border-[#272E3F] dark:border-white py-4 text-sm font-bold uppercase tracking-widest text-black dark:text-white"
       href="#"
     >
       Get Discount
-    </a>
+    </Link>
 
     <p className="mt-8 text-xs font-medium uppercase text-gray-400">
       Offer valid on monday&thursday, 2024 *

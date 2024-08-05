@@ -46,7 +46,7 @@ import { Label } from "@/components/ui/label"
           <Button type="submit" className="w-full">
             Create an account
           </Button>
-          <Button  className="w-full bg-white ">
+          <Button  className="w-full dark:bg-white ">
             Sign up with GitHub
           </Button>
         </div>
