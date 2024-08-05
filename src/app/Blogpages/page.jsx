@@ -1,6 +1,6 @@
 // pages/index.js
 import Link from 'next/link';
-import blogDetails from '@/Data/data';
+import { blogDetails } from '@/Data/data';
 import Image from 'next/image';
 export default function Home() {
   return (
