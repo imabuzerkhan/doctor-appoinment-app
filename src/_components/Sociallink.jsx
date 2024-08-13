@@ -23,6 +23,7 @@ const Sociallink = () => {
                     <Instagram className="text-2xl" />
 
                     </Link>
+                    {/* link tag end */}
                 </li>
 
                </ul>
