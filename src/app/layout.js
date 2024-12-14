@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/_components/Header";
 import Footer from "@/_components/Footer";
 import Provider from "@/app/Provider";
+import { ClerkProvider } from "@clerk/nextjs";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
@@ -12,6 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
+
     <html lang="en">
       <body className={outfit.className}>
         <Provider defaultTheme="light" attribute="class" >
@@ -25,5 +28,7 @@ export default function RootLayout({ children }) {
         </Provider>
         </body>
     </html>
+    </ClerkProvider>
+
   );
 }
