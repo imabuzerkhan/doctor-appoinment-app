@@ -10,7 +10,9 @@ import Latestblog from "@/_components/Latestblog";
 export default function Home() {
   return (
    <>
-   <Hero></Hero>
+   <Hero>
+    {/* hello */}
+   </Hero>
    <CategorySearch/>
   <PopularDoctor/>
   <DisBanner/>
